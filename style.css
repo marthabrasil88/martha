@@ -1,0 +1,110 @@
+
+    
+    
+    
+    body {
+        background-image: url('images1/background.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+      }
+
+    .box {
+        background-color: #00000074;
+        margin: 50px 100px 50px 250px;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+        padding-right: 20px;
+        width: 70%;
+        height: 80%;
+        align-self: center;
+    
+      }
+
+    img{
+        display: block;
+        margin: auto;
+    }
+    
+   
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Darker Grotesque', sans-serif;
+    color:rgb(0, 255, 13);
+    margin: 1px 2px 2px 2px;
+}
+
+ div.small.box{
+    
+    background-color: rgb(0, 255, 13);
+    border-radius: 10px;
+    padding: 10px 150px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 20px 20px 5px;
+    cursor: pointer;
+    
+  }   
+
+
+
+.li{
+    font-weight: bold;
+    font-size: larger; 
+    margin: 10px 50px 50px 50px;
+}
+
+
+ 
+   div.progress-bar{
+    
+        width: 45%;
+        height: 25px;
+        border-radius: 10px;
+        margin: 10px 30px 30px 30px;
+        background-color: #dbc172;
+        transition: width 1s ease-in-out;
+      }
+      
+ 
+
+li{
+    font-size: 25px;
+    line-height: 0.5;
+    list-style-type: square;
+    margin: 2px 20px 10px;
+    font-family: 'Darker Grotesque', sans-serif;
+    color:rgb(239, 239, 239)
+    
+}
+    div.progress-bar-due{
+    
+    width: 60%;
+    height: 25px;
+    border-radius: 10px;
+    margin: 10px 30px 30px 30px;
+    background-color: #50cd1b;
+    transition: width 1s ease-in-out;
+   }
+
+p{
+    font-weight: lighter;
+    line-height: 0.5;
+    font-size: 15px;
+    margin: 10px 35px;
+    font-family: 'Darker Grotesque', sans-serif;
+    color:rgb(239, 239, 239)
+}
+
+
+  div.progress-bar-tre{
+    
+    width: 20%;
+    height: 25px;
+    border-radius: 10px;
+    margin: 10px 30px 30px 30px;
+    background-color: #ed1717;
+    transition: width 1s ease-in-out;
+    }
